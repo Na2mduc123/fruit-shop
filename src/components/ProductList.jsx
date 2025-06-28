@@ -2,16 +2,20 @@ import bananaImg from '../assets/banana.jpg';
 import appleImg from '../assets/apple.jpg';
 import orangeImg from '../assets/orange.jpg';
 import grapeImg from '../assets/grape.jpg';
+import durianImg from '../assets/durian.jpg';
+import longanImg from '../assets/longan.jpg';
+import guavaImg from '../assets/guava.jpeg';
+import dragonfruitImg from '../assets/dragonfruit.jpg';
 
 const products = [
-  { id: 1, name: 'Chuối', price: '25.000đ/kg', img: bananaImg },
-  { id: 2, name: 'Táo', price: '35.000đ/kg', img: appleImg },
-  { id: 3, name: 'Cam', price: '30.000đ/kg', img: orangeImg },
-  { id: 4, name: 'Nho', price: '40.000đ/kg', img: grapeImg },
-  { id: 5, name: 'Chuối', price: '25.000đ/kg', img: bananaImg },
-  { id: 6, name: 'Táo', price: '35.000đ/kg', img: appleImg },
-  { id: 7, name: 'Cam', price: '30.000đ/kg', img: orangeImg },
-  { id: 8, name: 'Nho', price: '40.000đ/kg', img: grapeImg },
+  { id: 1, name: 'Chuối', img: bananaImg },
+  { id: 2, name: 'Táo', img: appleImg },
+  { id: 3, name: 'Cam', img: orangeImg },
+  { id: 4, name: 'Nho', img: grapeImg },
+  { id: 5, name: 'Sầu riêng', img: durianImg },
+  { id: 6, name: 'Nhãn', img: longanImg },
+  { id: 7, name: 'Ổi', img: guavaImg },
+  { id: 8, name: 'Thanh long', img: dragonfruitImg },
 ];
 
 const ProductList = () => (
@@ -37,5 +41,6 @@ const ProductList = () => (
     </div>
   </section>
 );
+
 
 export default ProductList;

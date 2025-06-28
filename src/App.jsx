@@ -4,6 +4,9 @@ import Hero from './components/hero';
 import ProductList from './components/ProductList';
 import Footer from './components/Footer';
 import Menu from './components/menu';
+import Banner from './components/banner';
+import BestSellerProducts from './components/BestSellerProducts';
+import News from './components/new';
 
 function App() {
   return (
@@ -11,12 +14,14 @@ function App() {
       <Header />
       <Hero />
       <Menu />
+      <Banner />
       <ProductList />
+      <BestSellerProducts />
+      <News />
       <Footer />
-      <h1 className="text-4xl text-red-500 font-bold">Màu đỏ</h1>
-      <h1 className="text-4xl text-green-500">Màu xanh lá</h1>
     </div>
   );
 }
+
 
 export default App;
